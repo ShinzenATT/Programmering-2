@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sc&apos; in &apos;v51_kattis_uppgifter.Rot.main(...)&apos; to &apos;input&apos;&#x0D;&#x0A;- Original project: &apos;Prog1&apos;&#x0D;&#x0A;- Original element: &apos;v51_kattis_uppgifter.Rot.main(String[]).sc&apos;&#x0D;&#x0A;- Renamed element: &apos;sc&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sc&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;v51_kattis_uppgifter{Rot.java[Rot~main~\[QString;@sc!127!162!135!136!QScanner;!0!false" name="input" references="true" stamp="1544192117474" version="1.0"/>
+</session>

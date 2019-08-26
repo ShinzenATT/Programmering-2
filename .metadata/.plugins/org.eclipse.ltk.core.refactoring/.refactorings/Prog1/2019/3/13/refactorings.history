@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;guess&apos; in &apos;w12.HangedMan.Game()&apos; to &apos;check&apos;&#x0D;&#x0A;- Original project: &apos;Prog1&apos;&#x0D;&#x0A;- Original element: &apos;w12.HangedMan.Game().guess&apos;&#x0D;&#x0A;- Renamed element: &apos;guess&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;guess&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;w12{HangedMan.java[HangedMan~Game@guess!2766!2796!2776!2780!\[QBoolean;!0!false" name="check" references="true" stamp="1553941239531" version="1.0"/>
+</session>

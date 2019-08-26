@@ -1,0 +1,45 @@
+package v51_kattis_uppgifter;
+
+import java.util.Scanner;
+
+public class HeapTree {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int height = input.nextInt();
+		String path = input.nextLine();
+		int heapAmount = 0;
+		for (int i = 1; i <= height; i++) {
+			heapAmount = (int) (heapAmount + (Math.pow(2, i)));
+		}
+		heapAmount = heapAmount + 1;
+		System.out.println("[Amount] " + heapAmount);
+		int[] tree = new int[heapAmount];
+		for (int i = 0; i < tree.length; i++) {
+			tree[i] = heapAmount - i;
+			System.out.print("[" + tree[i] + " " + i + "] ");
+		}
+		System.out.println();
+		int journey = 0;
+		for (int i = 0; i < path.length(); i++) {
+			if(path.charAt(i) == 'R') {
+				journey = journey + ((i+1)*2-1);
+				System.out.println("[HIT] R");
+			}
+			
+			else if(path.charAt(i) == 'L') {
+				journey = journey + ((i + 1)* 2);
+				System.out.println("[HIT] L");
+			}
+			
+			else {
+				System.out.println("Error");
+			}
+			
+			System.out.println("[Journey] " + journey + " " + tree[journey]);
+		}
+		System.out.println(journey + " " + tree[journey]);
+		
+		input.close();
+		
+	}
+}
