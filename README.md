@@ -1,4 +1,4 @@
-# Senaste Uppgift - Repition
+# Senaste Uppgift - Repitition
 ### 26 Augusti 2019
 	*/Prog 2/src/repition_prog1/*
 
