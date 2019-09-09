@@ -2,19 +2,19 @@ package repitition2;
 
 import java.awt.*;
 
-public class Box{
+public class Box<T>{
 
-   Object[] obj;
+    T[] obj;
 
-    public Box(Object... objects){
+    public Box(T... objects){
         obj = objects;
     }
 
-    public Object[] getArray(){
+    public T[] getArray(){
         return obj;
     }
 
-    public boolean compare(Object[] a, Object[] b){
+    public boolean compare(T[] a, T[] b){
 
         boolean isSimilar = false;
 
@@ -31,13 +31,13 @@ public class Box{
     }
 
     public boolean compare(Box b){
-        return compare(obj, b.getArray());
+        return compare(obj, (T[]) b.getArray());
     }
 
 
 
     public boolean compare(Box a, Box b){
-        return compare(a.getArray(), b.getArray());
+        return compare((T[]) a.getArray(), (T[]) b.getArray());
     }
 
 }
