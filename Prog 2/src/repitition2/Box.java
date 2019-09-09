@@ -14,7 +14,7 @@ public class Box<T>{
         return obj;
     }
 
-    public boolean compare(T[] a, T[] b){
+    public <T2> boolean compare(T[] a, T2[] b){
 
         boolean isSimilar = false;
 
@@ -30,14 +30,14 @@ public class Box<T>{
          return  isSimilar;
     }
 
-    public boolean compare(Box b){
-        return compare(obj, (T[]) b.getArray());
+    public <T2> boolean compare(Box b){
+        return compare(obj, (T2[]) b.getArray());
     }
 
 
 
-    public boolean compare(Box a, Box b){
-        return compare((T[]) a.getArray(), (T[]) b.getArray());
+    public <T2> boolean compare(Box a, Box b){
+        return compare((T[]) a.getArray(), (T2[]) b.getArray());
     }
 
 }
