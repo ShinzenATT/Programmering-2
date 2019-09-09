@@ -1,23 +1,40 @@
 package repitition2;
 
+import java.util.ArrayList;
+
 public class Upg6 {
+    static ArrayList<String> anagrams = new ArrayList<>();
+
     public static void main(String[] args) {
-        anagram("god dag");
+        anagram("why");
     }
 
-    public static void anagram(String target){
-        if (target.length() > 0){
-            char[] letters = target.toCharArray();
-            int index = (int) (Math.random() * letters.length);
-            System.out.print(letters[index]);
+    public static void anagram(String target) {
 
-            String temp = "";
-            for (int i = 0; i < letters.length; i++) {
-                if(i != index){
-                    temp+= letters[i];
-                }
-            }
-            anagram(temp);
+        String temp = "";
+        ArrayList<Integer> usedChars = new ArrayList<>();
+
+        for (int i = 0; i < target.length(); i++) {
+
+            char[] letters = target.toCharArray();
+            int index;
+            do {
+                index = (int) (Math.random() * letters.length);
+            } while (usedChars.contains(index));
+
+            temp += letters[index];
+            usedChars.add(index);
+
         }
+
+        if (anagrams.size() < Math.pow(target.length(), 2) - 1) {
+            if (!(anagrams.contains(temp) || temp == target)) {
+                anagrams.add(target);
+                System.out.println(temp);
+            }
+
+            anagram(target);
+        }
+
     }
 }
