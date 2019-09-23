@@ -1,0 +1,22 @@
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\WPF Intro.exe.config
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\WPF Intro.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\WPF Intro.pdb
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.csprojAssemblyReference.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\MainWindow.g.cs
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\App.g.cs
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro_MarkupCompile.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro_MarkupCompile.lref
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\MainWindow.baml
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.g.resources
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF_Intro.Properties.Resources.resources
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.csproj.GenerateResource.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.pdb
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.dll
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.Platform.Core.dll
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.Platform.dll
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\System.Windows.Interactivity.dll
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.xml
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.Platform.xml
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\bin\Debug\Caliburn.Micro.Platform.Core.xml
+G:\My Drive\Programmering 2\Prog2 CSharp\WPF Intro\obj\Debug\WPF Intro.csproj.CopyComplete

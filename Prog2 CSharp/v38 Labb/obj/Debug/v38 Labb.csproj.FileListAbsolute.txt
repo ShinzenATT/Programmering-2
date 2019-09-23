@@ -1,0 +1,14 @@
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\bin\Debug\v38 Labb.exe.config
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\bin\Debug\v38 Labb.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\bin\Debug\v38 Labb.pdb
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb.csprojAssemblyReference.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\MainWindow.g.cs
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\App.g.cs
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb_MarkupCompile.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb_MarkupCompile.lref
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\MainWindow.baml
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb.g.resources
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38_Labb.Properties.Resources.resources
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb.csproj.GenerateResource.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\v38 Labb\obj\Debug\v38 Labb.pdb

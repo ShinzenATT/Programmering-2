@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Test", "WpfApp1\WPF_Test.csproj", "{8D940285-8CA5-42F2-B922-938DFB1ABA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Intro", "WPF Intro\WPF Intro.csproj", "{F4B76098-6467-40D3-ADE0-50420302CF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "v38 Labb", "v38 Labb\v38 Labb.csproj", "{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D940285-8CA5-42F2-B922-938DFB1ABA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D940285-8CA5-42F2-B922-938DFB1ABA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D940285-8CA5-42F2-B922-938DFB1ABA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D940285-8CA5-42F2-B922-938DFB1ABA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B76098-6467-40D3-ADE0-50420302CF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B76098-6467-40D3-ADE0-50420302CF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B76098-6467-40D3-ADE0-50420302CF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B76098-6467-40D3-ADE0-50420302CF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98F5D841-47F8-46F5-A5DB-77019B6A0319}
+	EndGlobalSection
+EndGlobal
