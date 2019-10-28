@@ -8,26 +8,26 @@ namespace Miniraknare
 {
     public abstract class Calc<T>
     {
-        private List<object> QueryHistory = new List<object>();
-        protected double Add(double number1, double number2)
+        protected List<object> QueryHistory = new List<object>();
+
+        public override string ToString()
         {
-            return (number1 + number2);
+            string result = "";
+
+            for(int i = 0; i < QueryHistory.Count; i++)
+            {
+                result += QueryHistory[i].ToString() + " ";
+            }
+
+            return result;
         }
 
-        protected double Minus(double number1, double number2)
+        protected void AddObjectToList(object target)
         {
-            return number1 + number2;
+            QueryHistory.Add(target);
         }
 
-        protected double Divide(double numerator, double denominator)
-        {
-            return numerator / denominator;
-        }
-       
-        protected double Multiply(double number1, double number2)
-        {
-            return number1 * number2;
-        }
+        public abstract void AddItemsToQueryHistory(object number, char arithmetic);
 
         protected void RemovePreviousObjectExe()
         {
@@ -36,10 +36,36 @@ namespace Miniraknare
 
         public abstract void RemovePreviousObject();
 
-        protected abstract T Add(T term1, T term2);
-        protected abstract T Minus(T term1, T term2);
-        protected abstract T Divide(T numerator, T denumerator);
-        protected abstract T Multiply(T factor1, T factor2);
+        public abstract void RemoveAll();
+
+        protected abstract object SignCheck(char sign, int signIndex);
+
+        public double Add(double number1, double number2)
+        {
+            return (number1 + number2);
+        }
+
+        public double Minus(double number1, double number2)
+        {
+            return number1 + number2;
+        }
+
+        public double Divide(double numerator, double denominator)
+        {
+            return numerator / denominator;
+        }
+       
+        public double Multiply(double number1, double number2)
+        {
+            return number1 * number2;
+        }
+
+        public abstract T Add(T term1, T term2);
+        public abstract T Minus(T term1, T term2);
+        public abstract T Divide(T numerator, T denumerator);
+        public abstract T Multiply(T factor1, T factor2);
+
+        public abstract object Execute();
 
     }
 }

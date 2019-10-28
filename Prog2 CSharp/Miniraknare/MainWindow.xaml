@@ -28,21 +28,22 @@
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
         
-        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Background="#e3e3e3" TextAlignment="Right" FontSize="17" FontWeight="Bold" Padding="2" Text="Test" Foreground="#F666" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Background="#e3e3e3" TextAlignment="Right" FontSize="17" FontWeight="Bold" Padding="2" 
+                   Foreground="#F666" MouseDown="TextBlock_MouseDown" x:Name="QueryTextBlock"/>
         <TextBox Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="2" Grid.RowSpan="1" BorderThickness="0" FontSize="30" FontWeight="Black" Background="#eee" Foreground="#696969" 
                  TextAlignment="Right" VerticalContentAlignment='Center' x:Name='NumberBox' Text="0" GotFocus="NumberBox_GotFocus" LostFocus="Numpad_Input" TextChanged="NumberBox_TextChanged"/>
 
         <Button Grid.Column="1" Grid.Row='8' Content="%" x:Name="Percentage" Margin="2"/>
         <Button Grid.Column="1" Grid.Row="4" Content="√" x:Name="Sqrt"  Margin="2"/>
-        <Button Grid.Column="2" Grid.Row="4" Content="C" x:Name="Clean" Margin="2" />
+        <Button Grid.Column="2" Grid.Row="4" Content="C" x:Name="ClearAll" Margin="2" Click="ClearAll_Click"/>
         <Button Grid.Column="3" Grid.Row="4" Content="CE" x:Name="CleanEntry" Margin="2" Click="CleanEntry_Click"/>
-        
-        <Button x:Name="Add" Content="+" Grid.Row="7" Grid.Column='4' Margin="2" />
-        <Button x:Name="Minus" Content="-" Grid.Row="6" Grid.Column="4" Margin="2"/>
-        <Button x:Name="Divide" Content="÷" Grid.Row="4" Grid.Column="4" Margin="2"/>
-        <Button x:Name="Multiplication" Content="*" Grid.Row="5" Grid.Column="4" Margin="2"/>
 
-        <Button Grid.Column="3" Grid.Row="8" x:Name="Comma" Content="," Margin="2"/>
+        <Button x:Name="Add" Content="+" Grid.Row="7" Grid.Column='4' Margin="2" Tag="+" Click="Arithmatic_Click" />
+        <Button x:Name="Minus" Content="-" Grid.Row="6" Grid.Column="4" Margin="2" Tag="-" Click="Arithmatic_Click"/>
+        <Button x:Name="Divide" Content="/" Grid.Row="4" Grid.Column="4" Margin="2" Tag="/" Click="Arithmatic_Click"/>
+        <Button x:Name="Multiplication" Content="*" Grid.Row="5" Grid.Column="4" Margin="2" Tag="*" Click="Arithmatic_Click"/>
+
+        <Button Grid.Column="3" Grid.Row="8" x:Name="Comma" Content="," Tag="," Margin="2" Click="Numpad_Input"/>
         <Button x:Name="Execute" Content="=" Grid.Row="8" Grid.Column="4" Margin="2" Click="Execute_Click"/>
 
         <Button Grid.Column="2" Grid.Row="8" x:Name="Num0" Content="0" Tag="0" Margin="2" Click="Numpad_Input"/>
