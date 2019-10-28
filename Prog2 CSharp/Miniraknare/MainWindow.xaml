@@ -29,7 +29,7 @@
         </Grid.RowDefinitions>
         
         <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Background="#e3e3e3" TextAlignment="Right" FontSize="17" FontWeight="Bold" Padding="2" 
-                   Foreground="#F666" MouseDown="TextBlock_MouseDown" x:Name="QueryTextBlock"/>
+                   Foreground="#F666" MouseDown="TextBlock_MouseDown" x:Name="QueryTextBlock" />
         <TextBox Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="2" Grid.RowSpan="1" BorderThickness="0" FontSize="30" FontWeight="Black" Background="#eee" Foreground="#696969" 
                  TextAlignment="Right" VerticalContentAlignment='Center' x:Name='NumberBox' Text="0" GotFocus="NumberBox_GotFocus" LostFocus="Numpad_Input" TextChanged="NumberBox_TextChanged"/>
 

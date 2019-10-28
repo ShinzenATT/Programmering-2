@@ -30,7 +30,7 @@ namespace Miniraknare
 
         private void Execute_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         // Applies/Removes a placeholder from text box when focus changes and there's no user written value.
@@ -161,6 +161,14 @@ namespace Miniraknare
 
             QueryTextBlock.Text = "";
         }
+
+        /*
+        private async void QueryTextBlock_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            TestConsole tCons = new TestConsole();
+            await tCons.Input();
+        }
+        */
     }
 }
 
