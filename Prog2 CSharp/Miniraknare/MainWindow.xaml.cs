@@ -30,7 +30,12 @@ namespace Miniraknare
 
         private void Execute_Click(object sender, RoutedEventArgs e)
         {
-            
+            double temp = double.Parse(NumberBox.Text);
+            calc.AddItem(temp);
+            QueryTextBlock.Text = calc.ToString();
+
+            NumberBox.Text = calc.Execute().ToString();
+            calc.RemoveAll();
         }
 
         // Applies/Removes a placeholder from text box when focus changes and there's no user written value.

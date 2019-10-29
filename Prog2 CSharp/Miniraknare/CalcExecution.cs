@@ -64,7 +64,7 @@ namespace Miniraknare
                         }
 
                         QueryHistory.RemoveAt(i + 1);
-                        QueryHistory.RemoveAt(i + 1);
+                        QueryHistory.RemoveAt(i - 1);
                     }
                 }
             }
