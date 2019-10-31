@@ -35,14 +35,57 @@ namespace Miniraknare
             return (byte)Calculate(number1 + 0.0, number2 + 0.0);
         }
 
+        public decimal Calculate(decimal number1, decimal number2)
+        {
+            return (decimal)Calculate((double)number1, (double)number2);
+        }
+
+        public Percentage Calculate(Percentage number1, Percentage number2)
+        {
+            return new Percentage(Calculate(number1.GetValue(), number2.GetValue()));
+        }
+
+        public virtual double Calculate(Percentage number1, double number2)
+        {
+            return Calculate(((double)number1.GetValue()) * number2, number2);
+        }
+
+        public virtual double Calculate(double number1, Percentage number2)
+        {
+            return Calculate(number1, ((double)number2.GetValue()) * number1);
+        }
+
         public object Calculate(object value1, object value2)
         {
             bool hasCorrectFormat = true;
             object result = null;
 
-            if(value1.GetType() != value2.GetType())
+            if ((value1.ToString().Contains("%") && value2.GetType() == typeof(double)) ||
+                (value1.GetType() == typeof(double) && value2.ToString().Contains("%")))
             {
-                hasCorrectFormat = false;
+                string[] values = { value1.ToString(), value2.ToString() };
+
+                if (values[0].Contains("%"))
+                {
+                    result = Calculate(Percentage.Parse(values[0]), double.Parse(values[1]));
+                }
+                else if (values[1].Contains("%"))
+                {
+                    result = Calculate(double.Parse(values[0]), Percentage.Parse(values[1]));
+                }
+
+            }
+            else if (value1.ToString().Contains("%") && value2.ToString().Contains("%"))
+            {
+                Percentage num1 = Percentage.Parse(value1.ToString()),
+                    num2 = Percentage.Parse(value2.ToString());
+
+                result = Calculate(num1, num2);
+            }
+            else if (value1.GetType() != value2.GetType())
+            {
+                    hasCorrectFormat = false;
+                
             }
             else
             {

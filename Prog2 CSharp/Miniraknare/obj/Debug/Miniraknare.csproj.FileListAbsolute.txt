@@ -12,3 +12,10 @@ C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\obj\Debu
 C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.GenerateResource.cache
 C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.exe
 C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.pdb
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.dll
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.pdb
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.xml
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+C:\Users\Elev\Documents\GitHub\Programmering-2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CopyComplete

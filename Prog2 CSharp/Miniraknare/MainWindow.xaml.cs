@@ -30,7 +30,32 @@ namespace Miniraknare
 
         private void Execute_Click(object sender, RoutedEventArgs e)
         {
-            double temp = double.Parse(NumberBox.Text);
+            object temp = 0.0;
+            string target = NumberBox.Text;
+
+            if (target.Contains("%"))
+            {
+                try
+                {
+                    temp = Percentage.Parse(target);
+                }
+                catch
+                {
+                    temp = 0.0;
+                }
+            }
+            else
+            {
+                try
+                {
+                    temp = double.Parse(target);
+                }
+                catch
+                {
+                    temp = 0.0;
+                }
+            }
+
             calc.AddItem(temp);
             QueryTextBlock.Text = calc.ToString();
 
@@ -105,12 +130,30 @@ namespace Miniraknare
                         case "+":
                         case "-":
                         case "*":
-                            double temp = 0;
-                            try
+                            object temp = 0.0;
+                            string target = NumberBox.Text.Substring(0, i);
+
+                            if (target.Contains("%"))
                             {
-                                temp = double.Parse(NumberBox.Text.Substring(0, i));
+                                try
+                                {
+                                    temp = Percentage.Parse(target);
+                                }
+                                catch
+                                {
+                                    temp = 0.0;
+                                }
                             }
-                            catch { }
+                            else
+                            {
+                                try
+                                {
+                                    temp = double.Parse(target);
+                                }
+                                catch {
+                                    temp = 0.0;
+                                }
+                            }
             
                             calc.AddItemsToQueryHistory(temp, char.Parse(LastByte));
                             if (NumberBox.Text.Length - 1 < 1)
@@ -126,9 +169,6 @@ namespace Miniraknare
                             stop = true;
                             
                             break;
-                        case "%":
-
-                            break;
                     }
                     if (stop)
                     {
@@ -141,22 +181,47 @@ namespace Miniraknare
             
         }
             
-
+        // Focuses the text field when the textblock is clicked
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
             NumberBox.Focus();
         }
 
+        // When any arithmatic button is clicked (+, -, /, * and so on) then add the current number and the arithmatic letter to the list
         private void Arithmatic_Click(object sender, RoutedEventArgs e)
         {
-            double number = double.Parse(NumberBox.Text);
+            object number = 0.0;
             char sign = sender.ToString().ToCharArray()[sender.ToString().Length - 1];
+
+            if (NumberBox.Text.Contains("%"))
+            {
+                try
+                {
+                    number = Percentage.Parse(NumberBox.Text);
+                }
+                catch
+                {
+                    number = 0.0;
+                }
+            }
+            else
+            {
+                try
+                {
+                    number = double.Parse(NumberBox.Text);
+                }
+                catch
+                {
+                    number = 0.0;
+                }
+            }
 
             calc.AddItemsToQueryHistory(number, sign);
             QueryTextBlock.Text = calc.ToString();
             CleanEntry_Click(null, null);
         }
 
+        // Clears the text field and the list
         private void ClearAll_Click(object sender, RoutedEventArgs e)
         {
             NumberBox.Text = "";
@@ -167,13 +232,10 @@ namespace Miniraknare
             QueryTextBlock.Text = "";
         }
 
-        /*
-        private async void QueryTextBlock_MouseWheel(object sender, MouseWheelEventArgs e)
+        private void Percent_Click(object sender, RoutedEventArgs e)
         {
-            TestConsole tCons = new TestConsole();
-            await tCons.Input();
+            NumberBox.Text += "%";
         }
-        */
     }
 }
 

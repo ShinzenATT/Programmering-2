@@ -12,5 +12,16 @@ namespace Miniraknare.Arithmatics
         {
             return number1 * number2;
         }
+
+        public override double Calculate(Percentage number1, double number2)
+        {
+            return Calculate(((double)number1.GetValue()), number2);
+        }
+
+        public override double Calculate(double number1, Percentage number2)
+        {
+            return Calculate(number1, ((double)number2.GetValue()));
+        }
+
     }
 }
