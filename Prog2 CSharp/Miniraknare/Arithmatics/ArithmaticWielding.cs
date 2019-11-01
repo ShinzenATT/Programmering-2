@@ -12,5 +12,6 @@ namespace Miniraknare
         public static Arithmatics.Subtraction Subtraction = new Arithmatics.Subtraction();
         public static Arithmatics.Division Division = new Arithmatics.Division();
         public static Arithmatics.Multiplication Multiplication = new Arithmatics.Multiplication();
+        public static Arithmatics.Root Root = new Arithmatics.Root();
     }
 }

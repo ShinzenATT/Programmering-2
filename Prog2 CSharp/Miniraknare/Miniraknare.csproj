@@ -76,6 +76,7 @@
     </Compile>
     <Compile Include="Arithmatics\Addition.cs" />
     <Compile Include="Arithmatics\ArithmaticWielding.cs" />
+    <Compile Include="Arithmatics\Root.cs" />
     <Compile Include="Arithmatics\Multiplication.cs" />
     <Compile Include="Arithmatics\Division.cs" />
     <Compile Include="Arithmatics\Subtraction.cs" />

@@ -236,6 +236,16 @@ namespace Miniraknare
         {
             NumberBox.Text += "%";
         }
+
+        private void Root_Click(object sender, RoutedEventArgs e)
+        {
+            if(NumberBox.Text == "0" || NumberBox.Text == "")
+            {
+                NumberBox.Text = "2";
+            }
+
+            Arithmatic_Click(sender, e);
+        }
     }
 }
 

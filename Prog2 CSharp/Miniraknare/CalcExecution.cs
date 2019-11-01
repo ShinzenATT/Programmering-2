@@ -32,15 +32,10 @@ namespace Miniraknare
             QueryHistory.Add(number);
         }
 
-        protected override object SignCheck(char sign, int signIndex)
-        {
-            throw new NotImplementedException();
-        }
-
         public override object Execute()
         {
 
-            char[] letters = { '√', '/', '*', '+', '-' };
+            char[] letters = { '√', '/', '*', '-', '+' };
             for (int l = 0; l < letters.Length; l++)
             {
                 for (int i = 0; i < QueryHistory.Count(); i++)
@@ -50,6 +45,7 @@ namespace Miniraknare
                         switch (letters[l])
                         {
                             case '√':
+                                QueryHistory[i] = Root.Calculate(QueryHistory[i + 1], QueryHistory[i - 1]);
                                 break;
                             case '/':
                                 QueryHistory[i] = Division.Calculate(QueryHistory[i - 1], QueryHistory[i + 1]);

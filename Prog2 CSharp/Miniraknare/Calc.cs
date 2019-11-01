@@ -38,8 +38,6 @@ namespace Miniraknare
 
         public abstract void RemoveAll();
 
-        protected abstract object SignCheck(char sign, int signIndex);
-
         public abstract object Execute();
 
     }
