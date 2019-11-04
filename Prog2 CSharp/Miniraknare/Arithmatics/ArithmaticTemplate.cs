@@ -8,6 +8,12 @@ namespace Miniraknare
 {
     public abstract class ArithmaticTemplate
     {
+        /// <summary>
+        /// The base method for calculations
+        /// </summary>
+        /// <param name="number1"></param>
+        /// <param name="number2"></param>
+        /// <returns>Result of the calculation between number1 and number2</returns>
         public abstract double Calculate(double number1, double number2);
 
         public int Calculate(int number1, int number2)
@@ -55,6 +61,16 @@ namespace Miniraknare
             return Calculate(number1, ((double)number2.GetValue()) * number1);
         }
 
+        /// <summary>
+        /// Finds the appropriate type for the parameters and sends them to the coresponding method
+        /// </summary>
+        /// <remarks>
+        /// If the parameters is not a number type or aligns with the format than this will return null
+        /// </remarks>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns>The result from the corosponding method</returns>
+        /// <seealso cref="Calculate(double, double)"/>
         public object Calculate(object value1, object value2)
         {
             bool hasCorrectFormat = true;

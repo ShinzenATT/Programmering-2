@@ -28,6 +28,7 @@ namespace Miniraknare
             InitializeComponent();
         }
 
+        // Whebn the equals button is clicked send the current number to the list and calculate all the numbers in the list
         private void Execute_Click(object sender, RoutedEventArgs e)
         {
             object temp = 0.0;
@@ -87,12 +88,24 @@ namespace Miniraknare
         // Generic eventhandeler to input numbers to text box
         private void Numpad_Input(object sender, RoutedEventArgs e)
         {
-            string tempNumber = sender.ToString();
+            Button tempNumber;
+            try
+            {
+                tempNumber = (Button)sender;
+            }
+            catch
+            {
+                tempNumber = new Button();
+            }
             if (!(NumberBox.IsFocused))
             {
                 NumberBox_GotFocus(null, null);
             }
-            NumberBox.Text += tempNumber.Substring(tempNumber.Length - 1);
+            try
+            {
+                NumberBox.Text += tempNumber.Tag.ToString().ToCharArray()[0];
+            }
+            catch { }
             return;
         }
 
@@ -191,7 +204,9 @@ namespace Miniraknare
         private void Arithmatic_Click(object sender, RoutedEventArgs e)
         {
             object number = 0.0;
-            char sign = sender.ToString().ToCharArray()[sender.ToString().Length - 1];
+            Button sender2 = (Button)sender;
+            char sign = sender2.Tag.ToString().ToCharArray()[0];
+            
 
             if (NumberBox.Text.Contains("%"))
             {

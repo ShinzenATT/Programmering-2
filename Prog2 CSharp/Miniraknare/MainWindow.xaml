@@ -37,7 +37,7 @@
                  TextChanged="NumberBox_TextChanged"/>
 
         <Button Grid.Column="1" Grid.Row='8' Content="%" x:Name="Percent" Margin="2" Click="Percent_Click"/>
-        <Button Grid.Column="1" Grid.Row="4" Content="√" x:Name="Root"  Margin="2" Click="Root_Click"/>
+        <Button Grid.Column="1" Grid.Row="4" Content="√" Tag="√" x:Name="Root"  Margin="2" Click="Root_Click"/>
         <Button Grid.Column="2" Grid.Row="4" Content="C" x:Name="ClearAll" Margin="2" Click="ClearAll_Click"/>
         <Button Grid.Column="3" Grid.Row="4" Content="CE" x:Name="CleanEntry" Margin="2" Click="CleanEntry_Click"/>
 

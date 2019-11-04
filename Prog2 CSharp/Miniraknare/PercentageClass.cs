@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace Miniraknare
 {
+    /// <summary>
+    /// This class works as type that handles percentages and calculations
+    /// </summary>
+    /// <remarks>Percentage objects can be used with any operator(except %) for calculations and can be used with doubles</remarks>
     public class Percentage
     {
+        /// <summary>
+        /// The value of the object
+        /// </summary>
         private decimal percent = 0;
 
+        /// <summary>
+        /// Constructs a percentage object
+        /// </summary>
+        /// <param name="value">The percentage</param>
+        /// <param name="isInDecimals">Decides of if value is in decimals or not</param>
         public Percentage(decimal value, bool isInDecimals)
         {
             if (isInDecimals)
