@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Intro", "WPF Intro\WPF 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "v38 Labb", "v38 Labb\v38 Labb.csproj", "{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miniraknare", "Miniraknare\Miniraknare.csproj", "{28BD4DEA-99DB-4092-916A-729A2834DF3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC3A958-A7C5-4F25-8014-CCC8D94F0584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BD4DEA-99DB-4092-916A-729A2834DF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BD4DEA-99DB-4092-916A-729A2834DF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BD4DEA-99DB-4092-916A-729A2834DF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BD4DEA-99DB-4092-916A-729A2834DF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
