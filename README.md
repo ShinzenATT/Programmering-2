@@ -1,6 +1,8 @@
-# Senaste Uppgift - Repitition
-### 26 Augusti 2019
-	*/Prog 2/src/repition_prog1/*
+# Senaste Uppgift - MinirÃ¤knare
+### 4 November 2019
+	*/Prog2 CSharp/Miniraknare/*
 
 # Gammla Uppgifter
-### Inget för närvarande
+## Repetition
+### 26 Augusti 2019
+	*/Prog 2/src/repition_prog1/*
