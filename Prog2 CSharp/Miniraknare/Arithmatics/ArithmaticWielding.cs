@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Miniraknare
 {
+    /// <summary>
+    /// A colletion of all  atithmatic classes that may be imported
+    /// </summary>
     abstract public class ArithmaticWielding
     {
         public static Arithmatics.Addition Addition = new Arithmatics.Addition();

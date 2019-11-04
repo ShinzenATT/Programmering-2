@@ -51,11 +51,23 @@ namespace Miniraknare
             return new Percentage(Calculate(number1.GetValue(), number2.GetValue()));
         }
 
+        /// <summary>
+        /// Calculates with a number and a part of a nummber using the percentage (i.e. 20 + (20 * 0.5))
+        /// </summary>
+        /// <param name="number1">Perentage</param>
+        /// <param name="number2">Number</param>
+        /// <returns>The result</returns>
         public virtual double Calculate(Percentage number1, double number2)
         {
             return Calculate(((double)number1.GetValue()) * number2, number2);
         }
 
+        /// <summary>
+        /// Calculates with a number and a part of a nummber using the percentage (i.e. 20 + (20 * 0.5))
+        /// </summary>
+        /// <param name="number1">Number</param>
+        /// <param name="number2">Percentage</param>
+        /// <returns>The result</returns>
         public virtual double Calculate(double number1, Percentage number2)
         {
             return Calculate(number1, ((double)number2.GetValue()) * number1);
@@ -76,6 +88,7 @@ namespace Miniraknare
             bool hasCorrectFormat = true;
             object result = null;
 
+            // Checks if it is a percentage and/or a double
             if ((value1.ToString().Contains("%") && value2.GetType() == typeof(double)) ||
                 (value1.GetType() == typeof(double) && value2.ToString().Contains("%")))
             {
@@ -98,6 +111,7 @@ namespace Miniraknare
 
                 result = Calculate(num1, num2);
             }
+            // Checks if both values are the same (primitive) type
             else if (value1.GetType() != value2.GetType())
             {
                     hasCorrectFormat = false;
@@ -105,6 +119,7 @@ namespace Miniraknare
             }
             else
             {
+                //Finds out the  datatype of the values and sends them to the appropriate method
                 Type valueType = value1.GetType();
 
                 if(valueType == typeof(double)){
