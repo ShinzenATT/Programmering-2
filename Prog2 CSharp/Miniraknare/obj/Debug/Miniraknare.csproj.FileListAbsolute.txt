@@ -40,3 +40,4 @@ G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.cspro
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CopyComplete
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.exe
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.pdb
+G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CoreCompileInputs.cache
