@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace v45
 {
-    public class Suv2 : Vehicle
+    public class MonsterTruck : Vehicle
     {
-        public Suv2()
+        public MonsterTruck()
         {
-            Brand = "Toyota";
-            Model = "Bilux";
+            Brand = "Monster";
+            Model = "Truck";
             Name = Brand + " " + Model;
         }
         public override string Move()

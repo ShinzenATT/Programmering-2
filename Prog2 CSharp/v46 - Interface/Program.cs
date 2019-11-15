@@ -14,7 +14,7 @@ namespace v46___Interface
             Console.ReadKey();
             Console.WriteLine();
 
-            IHuman[] h = { new Humans.Bob(), new Humans.Bob() };
+            IHuman[] h = { new Humans.Bob(), new Humans.BoB(), new Humans.Dood() };
 
             foreach (IHuman human in h)
             {
@@ -26,6 +26,7 @@ namespace v46___Interface
                     Console.WriteLine();
                 }
                 Console.WriteLine();
+                Console.WriteLine("~Fin~");
             }
         }
     }

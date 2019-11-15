@@ -14,7 +14,7 @@ namespace v45
             Console.ReadKey();
             Console.WriteLine();
 
-            Vehicle[] v = { new Suv(), new Suv() };
+            Vehicle[] v = { new Suv(), new Buv(), new MonsterTruck() };
 
             foreach(Vehicle vehicle in v)
             {
@@ -26,6 +26,7 @@ namespace v45
                     Console.WriteLine();
                 }
                 Console.WriteLine();
+                Console.WriteLine("~Fin~");
             }
         }
     }

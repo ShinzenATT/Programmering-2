@@ -1,0 +1,6 @@
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\obj\Debug\v46 - Interface.csproj.CoreCompileInputs.cache
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\bin\Debug\v46 - Interface.exe.config
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\bin\Debug\v46 - Interface.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\bin\Debug\v46 - Interface.pdb
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\obj\Debug\v46 - Interface.exe
+G:\My Drive\Programmering 2\Prog2 CSharp\v46 - Interface\obj\Debug\v46 - Interface.pdb

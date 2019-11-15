@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Human.cs" />
+    <Compile Include="Humans\Dood.cs" />
+    <Compile Include="Humans\[B]o[B].cs" />
     <Compile Include="Humans\Bob.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

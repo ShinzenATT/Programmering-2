@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace v46___Interface.Humans
 {
-    class Bob : IHuman
+    class BoB : IHuman
     {
-        public string interest { get; } = "knitting";
-        public string name { get; } = "Bob";
+        public string interest { get; } = "meming";
+        public string name { get; } = "[B]o[B]";
         public bool willToLive { get; set; } = true;
 
 
