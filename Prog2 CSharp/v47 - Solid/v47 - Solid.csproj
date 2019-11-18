@@ -7,7 +7,7 @@
     <ProjectGuid>{803F1699-3EB6-4D81-BB79-ED02DE877C14}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>v47___Solid</RootNamespace>
-    <AssemblyName>v47___Solid</AssemblyName>
+    <AssemblyName>v47 - Solid</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
