@@ -41,3 +41,45 @@ G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.cspro
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.exe
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.pdb
 G:\My Drive\Programmering 2\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CoreCompileInputs.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.exe.config
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.pdb
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.pdb
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csprojAssemblyReference.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\MainWindow.g.cs
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\App.g.cs
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare_MarkupCompile.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare_MarkupCompile.lref
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\MainWindow.baml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.g.resources
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.Properties.Resources.resources
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.GenerateResource.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CopyComplete
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.exe.config
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.exe
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Miniraknare.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.Controls.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csprojAssemblyReference.cache
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\MainWindow.g.cs
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\App.g.cs
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare_MarkupCompile.cache
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare_MarkupCompile.lref
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\MainWindow.baml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.g.resources
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.Properties.Resources.resources
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.GenerateResource.cache
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.csproj.CopyComplete
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.exe
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Miniraknare\obj\Debug\Miniraknare.pdb

@@ -1,0 +1,6 @@
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\bin\Debug\v47 - Solid.exe.config
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\bin\Debug\v47 - Solid.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\bin\Debug\v47 - Solid.pdb
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\obj\Debug\v47 - Solid.csprojAssemblyReference.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\obj\Debug\v47 - Solid.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\v47 - Solid\obj\Debug\v47 - Solid.pdb

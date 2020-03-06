@@ -1,0 +1,30 @@
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.exe.config
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.pdb
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Reactive.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.ValueTuple.dll
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Reactive.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.ValueTuple.xml
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.csprojAssemblyReference.cache
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.csproj.CopyComplete
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.exe
+G:\My Drive\Programmering 2\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.exe.config
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.exe
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\Observer Pattern.pdb
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Reactive.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.ValueTuple.dll
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Reactive.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\bin\Debug\System.ValueTuple.xml
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.csprojAssemblyReference.cache
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.csproj.CopyComplete
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.exe
+C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\Observer Pattern\obj\Debug\Observer Pattern.pdb
