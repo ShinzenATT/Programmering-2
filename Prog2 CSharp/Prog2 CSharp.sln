@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer Pattern", "Observe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Pattern", "MVC Pattern\MVC Pattern.csproj", "{B4FCEDDA-A57A-404E-80CD-3108C026E039}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{9CBF0254-8954-4A56-A0EF-D988C1E99B4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B4FCEDDA-A57A-404E-80CD-3108C026E039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FCEDDA-A57A-404E-80CD-3108C026E039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FCEDDA-A57A-404E-80CD-3108C026E039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBF0254-8954-4A56-A0EF-D988C1E99B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBF0254-8954-4A56-A0EF-D988C1E99B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBF0254-8954-4A56-A0EF-D988C1E99B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBF0254-8954-4A56-A0EF-D988C1E99B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

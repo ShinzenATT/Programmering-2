@@ -8,6 +8,7 @@ namespace MVC_Pattern
 {
     class Demo
     {
+        /*
         static void Main(string[] args)
         {
             Student model = retriveStudentFromDatabase();
@@ -21,6 +22,7 @@ namespace MVC_Pattern
             controller.UpdateView();
             
         }
+        */
 
         private static Student retriveStudentFromDatabase()
         {
