@@ -1,8 +1,3 @@
-# Senaste Uppgift - Miniräknare
-### 4 November 2019
-	*/Prog2 CSharp/Miniraknare/*
+# Simple Calculator in C# and XAML
+This is a simple ui calculator for experimenting with C# and XAML together
 
-# Gammla Uppgifter
-## Repetition
-### 26 Augusti 2019
-	*/Prog 2/src/repition_prog1/*

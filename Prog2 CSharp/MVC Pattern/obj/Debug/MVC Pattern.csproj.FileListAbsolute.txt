@@ -1,6 +1,0 @@
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\bin\Debug\MVC Pattern.exe.config
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\bin\Debug\MVC Pattern.exe
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\bin\Debug\MVC Pattern.pdb
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\obj\Debug\MVC Pattern.csprojAssemblyReference.cache
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\obj\Debug\MVC Pattern.exe
-C:\Users\Alen Mukaca\OneDrive\Prog 2 Objektorienterat\Prog2 CSharp\MVC Pattern\obj\Debug\MVC Pattern.pdb
